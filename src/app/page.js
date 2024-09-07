@@ -1,7 +1,7 @@
-"use client";
+'use client';
 import React, { useState, useEffect } from "react";
 
-const page = () => {
+const Page = () => {
   const courseData = [
     {
       id: "1",
@@ -178,7 +178,7 @@ const page = () => {
     <div className="p-6 md:p-8 lg:p-10">
       {/* Search and Listing */}
 
-      <h1 className="text-2xl mb-2 font-bold ">Student Dashboard</h1>
+      <h1 className="text-2xl mb-2 font-bold">Student Dashboard</h1>
       {!selectedCourse && (
         <div>
           <input
@@ -291,4 +291,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
